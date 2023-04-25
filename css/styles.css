@@ -15,8 +15,7 @@ body, html {
     max-width: 1700px;
 }
 .ancho {
-
-    box-shadow: 1px 1px 1px 1px grey;
+    box-shadow: 1px 1px 8px 2px grey;
 }
 /* NAV */  
 .nav-item{
@@ -59,4 +58,21 @@ body, html {
 .icon{
     border-radius: 50%;
     background-color:var(--gris);
+}
+
+.ancho {
+    min-width: 500px;
+}
+#message-input{
+    resize: none;
+}
+/* MOVILES */
+@media (max-width: 767px) {
+    .ancho {
+        min-width: min-content;
+    }
+  }
+/* quitar ancla auxiliar de fomrulario contacto */
+#conexion{
+    display: none;
 }

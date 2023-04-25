@@ -8,3 +8,5 @@ btnAcelerador.addEventListener('click', function () {
 btnFreno.addEventListener('click', function () {
     alert('Ejecutar Codigo Boton Freno');
 })
+
+

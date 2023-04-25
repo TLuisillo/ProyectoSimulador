@@ -146,23 +146,20 @@
         <div class="d-flex justify-content-center align-items-center">
             <form class="ancho text-center py-2 px-5 bg-light border-5" id="form">
                 <div class="mb-3 w-100">
-                    <label for="first-name" class="col-form-label">Nombre:</label>
-                    <input type="text" class="form-control w-100 d-block" id="first-name">
-                    <label for="first-name" class="col-form-label">Apellido:</label>
-                    <input type="text" class="form-control w-100 d-block" id="last-name">
+                    <label for="name" class="col-form-label" =>Nombre:</label>
+                    <input type="text" class="form-control w-100 d-block" id="first-name" name="name">
                     <label for="first-name" class="col-form-label">Email:</label>
-                    <input type="text" class="form-control w-100 d-block" id="email">
-                    <label for="first-name" class="col-form-label">Telefono:</label>
-                    <input type="text" class="form-control w-100 d-block" id="phone">
+                    <input type="text" class="form-control w-100 d-block" id="phone" name="mail">
 
                     <div class="my-3">
                         <label for="message-input" class="form-label">Mensaje</label>
-                        <textarea class="form-control" id="message-input" rows="3"></textarea>
+                        <textarea name="message" class="form-control" id="message-input" rows="3"></textarea>
                     </div>
 
                     <button class="btn btn-success mt-3" id="btn-submit">Enviar</button>
                 </div>
             </form>
+            <a href="mailto:correoEjemplo@gmail.com" id="conexion">mail</a>
         </div>
     </section>
     <!-- FOOTER -->

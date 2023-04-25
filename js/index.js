@@ -1,11 +1,16 @@
 const formulario = document.querySelector('#form')
-const boton =  document.querySelector('#btn-submit');
+const $buttonMailto = document.querySelector('#conexion');
+const boton = document.querySelector('#btn-submit');
 
-form.addEventListener('submit', (event) => {
+form.addEventListener('submit', handleSumbmit)
+
+function handleSumbmit(event) {
     event.preventDefault();
-    const fromData = FormData(form);
-});
+    const form = new FormData(this);
+    $buttonMailto.setAttribute('href', `mailto:correoEjemplo@gmail.com?subject=Nombre: ${form.get('name')} --- Correo: ${form.get('mail')}&body=${form.get('message')}`);
+    $buttonMailto.click();
+}
 
-boton.addEventListener('click', function () {
-    alert('Mensaje Enviado Correctamente');
-});
+
+
+
