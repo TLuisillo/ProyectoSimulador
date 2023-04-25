@@ -1,0 +1,62 @@
+/* Vars Root */
+:root {
+    --blanco: #ffffff;
+    --oscuro: #141414;
+    --red: #DB0A40;
+    --amarillo: #ffcc008e;
+    --gris: #646262;
+    --blue: #0f249b;
+}
+/* GENERAL  */
+body, html {
+    font-family: monospace, sans-serif;    
+}
+.container {
+    max-width: 1700px;
+}
+.ancho {
+
+    box-shadow: 1px 1px 1px 1px grey;
+}
+/* NAV */  
+.nav-item{
+    margin-left: 20px;
+    font-size: 18px;
+}
+.nav-item:hover{
+    border-bottom: 2px solid white;
+    border-radius: 2%;
+}
+.logo{
+    width: 28px;
+}
+.navbar-brand{
+    padding:8px 16px;
+    margin-bottom: 3px;
+}
+.title1{
+    color: var(--blue);
+}
+.span{
+    color: var(--red);
+}
+.back{
+    background-color: var(--oscuro);
+}
+
+.nav-bg {
+    background-color: var(--secundario);
+}
+
+.boton1:hover{
+    background-color: #DB0A40;
+}
+#hero{
+    margin-top: 62px;
+    padding: 60px;
+}
+/* Section INFO */
+.icon{
+    border-radius: 50%;
+    background-color:var(--gris);
+}

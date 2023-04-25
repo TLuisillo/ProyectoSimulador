@@ -1,0 +1,206 @@
+/* Vars Root */
+:root {
+    --blanco: #ffffff;
+    --oscuro: #141414;
+    --oscuro2: #0c0b0b;
+    --red: #DB0A40;
+    --amarillo: #ffcc008e;
+    --gris: #646262;
+    --blue: #0f249b;
+}
+
+/* GENERAL  */
+body, html {
+    font-family: monospace, sans-serif;
+}
+
+.container {
+    max-width: 1700px;
+}
+
+.ancho {
+
+    box-shadow: 1px 1px 1px 1px grey;
+}
+
+/* NAV */
+.nav-item {
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.nav-item:hover {
+    border-bottom: 2px solid white;
+    border-radius: 2%;
+}
+
+.logo {
+    width: 28px;
+}
+
+.navbar-brand {
+    padding: 8px 16px;
+    margin-bottom: 3px;
+}
+
+.title1 {
+    color: var(--blue);
+}
+
+.span {
+    color: var(--red);
+}
+
+.back {
+    background-color: var(--oscuro);
+}
+
+.nav-bg {
+    background-color: var(--secundario);
+}
+
+/* SIMULADOR */
+#simulador {
+    min-height: 100vh;
+    background-color: var(--oscuro2);
+}
+
+.contenedor-principal {
+    margin-top: 36px;
+    background-color: rgb(184, 174, 174);
+    min-width: 100%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contenedor-2 {
+    position: relative;
+    background-image: url(../img/road.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(60%);
+    z-index: -1;
+    opacity: 0.9;
+    height: 100%;
+    width: 100%;
+}
+
+/* Arbol  */
+.img-arbol {
+    border-radius: 10%;
+    width: 10%;
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    filter: brightness(100%);
+    z-index: 99;
+    transform: translateX(-50%);
+}
+
+#btn-freno{
+    border-radius: 10%;
+    width: 10%;
+    position: absolute;
+    bottom: 3%;
+    left: 40%;
+    filter: brightness(100%);
+    z-index: 99;
+    transform: translateX(-100%);
+    padding: 0;
+}
+#btn-acelerador{
+    border-radius: 10%;
+    width: 10%;
+    position: absolute;
+    bottom:  3%;
+    left: 69%;
+    filter: brightness(100%);
+    z-index: 99;
+    transform: translateX(-100%);
+    padding: 0;
+}
+#btn-acelerador:hover{
+    padding: 10px;
+    filter: brightness(60%);
+}
+
+#btn-freno:hover{
+    padding: 10px;
+    filter: brightness(60%);
+}
+
+
+.img-acelerador{
+    width: 38%;
+    height: 100%;
+    padding: 0;
+}
+
+.img-freno{
+    width: 40%;
+    height: 100%;
+}
+
+
+
+.img-volante {
+    border-radius: 50%;
+    filter: brightness(100%);
+    width: 20%;
+    position: absolute;
+    bottom: -5%;
+    left: 50%;
+    transform: translate(-50%, -0%);
+}
+
+
+.img-semaforo {
+    border-radius: 30%;
+    filter: brightness(100%);
+    width: 16%;
+    position: absolute;
+    top: 50%;
+    left: 9%;
+    transform: translate(-50%, -50%);
+}
+
+.texto {
+    font-size: 14px;
+    text-align: center;
+}
+
+.caja1 {
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    height: 22%;
+    width: 10%;
+    color: #ffffff;
+    background-color: red;
+    position: absolute;
+    top: 24%;
+    left: 80%;
+    transform: translate(-15%, -90%);
+}
+
+.caja2 {
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    height: 22%;
+    width: 10%;
+    color: #ffffff;
+    background-color: rgb(47, 0, 255);
+    position: absolute;
+    top: 48%;
+    left: 80%;
+    transform: translate(-15%, -90%);
+}
